@@ -24,7 +24,7 @@
             <ul class="gNav_list">
               <li class="gNav_item"><a href="/">TOP</a></li>
               <li class="gNav_item"><a href="/service/">SERVICE</a></li>
-              <li class="gNav_item"><a href="https://rabbynet.zennichi.or.jp/agency/15360059/rent/home/">物件情報</a></li>
+              <li class="gNav_item"><a href="https://rabbynet.zennichi.or.jp/agency/15360059/rent/home/" target="blank">物件情報</a></li>
               <li class="gNav_item"><a href="/moving_guidebook/">入居ガイド</a></li>
               <li class="gNav_item"><a href="/company/">会社案内</a></li>
             </ul>
@@ -35,23 +35,5 @@
             <a href="/contact/index.php">お問い合わせ</a>
           </div>
         </div>
-      </div>
-    </header>
-    <header class="sp-gHeader">
-      <div class="sp-gHeader_inner">
-        <figure class="sp-gHeader_logo"><a href="/"><img src="/assets/images/logo.png" alt="LOGO"></a></figure>
-        <div class="toggle"><a href="#">menu</a></div>
-        <nav class="gNav">
-          <div class="gNav_inner">
-            <ul class="gNav_list">
-              <li class="gNav_item"><a href="/">TOP</a></li>
-              <li class="gNav_item"><a href="/service/">SERVICE</a></li>
-              <li class="gNav_item"><a href="https://rabbynet.zennichi.or.jp/agency/15360059/rent/home/">物件情報</a></li>
-              <li class="gNav_item"><a href="https://www.zennichi.net/m/heiseih/nyuguide.asp">入居ガイド</a></li>
-              <li class="gNav_item"><a href="/company/">会社案内</a></li>
-            </ul>
-          </div>
-        </nav><!-- /.gNav -->
-        <!-- <div class="gHeader_contact"><a href="">Contact</a></div> -->
       </div>
     </header>

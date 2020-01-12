@@ -11,6 +11,7 @@ if (windowWidth <= windowSm) {
         if ($(this).scrollTop() > 23) {
           $(".section").css({'margin-top':'143px'});
           $(".gHeader").css({'position':'fixed','top':'0px','margin':'0px 0px 0px 0px'});
+          
         }else {
           $(".section").css({'margin-top':'30px'});
           $(".gHeader").css({'position':'relative','top':'0px','margin':'23px 0px 0px 0px'});
