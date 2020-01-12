@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Input your ID and Password."
-AuthUserFile /var/www/html/heiseif/.htpasswd
+AuthUserFile C:/xampp/htdocs/heiseif/.htpasswd
 require valid-user
