@@ -40,25 +40,25 @@ require_once './common/_header.php';
           <div class="contents_inner">
               <ul class="contents_list">
                 <li class="contents_item">
-                  <a href="#tabs-1" >
+                  <a href="/service/index.php#tabs-1" >
                     <figure class="contents_img">
-                      <img src="assets/images/rent.png" alt="コンテンツ画像">
+                      <img src="/assets/images/rent.png" alt="賃貸仲介業">
                       <div class="black_cover"><span class="contents_title">賃貸仲介業</span></div>
                     </figure>
                   </a>
                 </li>
                 <li class="contents_item">
-                  <a href="#tabs-2">
+                  <a href="/service/index.php#tabs-2">
                     <figure class="contents_img">
-                      <img src="assets/images/sales.png" alt="コンテンツ画像">
+                      <img src="/assets/images/sales.png" alt="土地売買業">
                       <div class="black_cover"><span class="contents_title">土地売買業</span></div>
                     </figure>
                   </a>
                 </li>
                 <li class="contents_item">
-                  <a href="#tabs-3">
+                  <a href="/service/index.php#tabs-3">
                     <figure class="contents_img">
-                      <img src="assets/images/house.png" alt="コンテンツ画像">
+                      <img src="/assets/images/house.png" alt="中古戸建買取業">
                       <div class="black_cover"><span class="contents_title">中古戸建買取業</span></div>
                     </figure>
                   </a>

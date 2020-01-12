@@ -3,18 +3,17 @@ require_once '../common/_header.php';
  ?>
   <section class="section_service">
   <div class="section_inner">
-    <div class="sectionHead">
-      <h1 class="sectionHead_title"><span>Service</span></h1>
+    <div class="page_sectionHead">
+      <h1 class="sectionHead_title"><span>COMPANY</span></h1>
     </div><!-- /.sectionHead -->
     <div class="contents">
-      <div class="contents_inner">
+      <div class="company_contents_inner">
         <div id="comp_table">
-                  <table id="comp" class="company-detail">
+                  <table class="company_table">
                       <tbody><tr>
                           <th>会社名</th>
                           <td>
-                              <div id="comp_kanji">平成不動産</div>
-                              <div id="comp_kana" class="company-kana">ヘイセイフドウサン</div>
+                              <div id="comp_kanji">平成不動産<span id="comp_kana" class="company-kana">(ヘイセイフドウサン)</span></div>
                           </td>
                       </tr>
 
@@ -27,10 +26,24 @@ require_once '../common/_header.php';
                           <td><div id="comp_leader">平島　彰一</div></td>
                       </tr>
                       <tr>
+                        <th>郵便番号</th>
+                        <td>
+                          <div id="comp_zip">771-0212</div>
+                        </td>
+                      </tr>
+                      <tr>
                           <th>所在地</th>
                           <td>
-                              <div id="comp_zip">771-0212</div>
                               <div id="comp_adr2">徳島県板野郡松茂町中喜来字南張3-3</div>
+                              <div><span id="comp_rosen">ＪＲ鳴門線</span>:<span id="comp_station">教会前</span></div>
+                              <div>
+                                  <div>バス乗車：<span id="bus_time">3</span>分</div><div>バス停名：<span id="bus_stop">松茂ニュータウン北</span></div><div>停歩分：<span id="from_bus">1</span>分</div><div>徒歩<span id="walk">15</span>分</div>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>交通</th>
+                          <td>
                               <div><span id="comp_rosen">ＪＲ鳴門線</span>:<span id="comp_station">教会前</span></div>
                               <div>
                                   <div>バス乗車：<span id="bus_time">3</span>分</div><div>バス停名：<span id="bus_stop">松茂ニュータウン北</span></div><div>停歩分：<span id="from_bus">1</span>分</div><div>徒歩<span id="walk">15</span>分</div>
@@ -52,7 +65,7 @@ require_once '../common/_header.php';
                       <tr>
                           <th>営業時間</th>
                           <td>
-                              <div id="business_hours1">7:３０～１６:15日</div>
+                              <div id="business_hours1">7:30 ～16:15</div>
 
                           </td>
                       </tr>
