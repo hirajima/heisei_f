@@ -15,8 +15,8 @@
          <li class="footer_item">徳島県知事免許(8)1938</li>
        </ul>
        <ul>
-         <li class="footer_item">個人情報の取扱いについて</li>
-         <li class="footer_item">免責事項</li>
+         <li class="footer_item"><a href="/privacy.php">個人情報の取扱いについて</a></li>
+         <li class="footer_item"><a href="/disclaimer.php">免責事項</a></li>
        </ul>
 
      </div>

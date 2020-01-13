@@ -197,6 +197,7 @@ li {
 }
     .contents {
       width: 100%;
+	  height: 100%;
     }
     .contents_list {
       width: auto;
@@ -741,6 +742,7 @@ li {
 /*SERVICE*/
 .service_contents_inner{
   width: 60%;
+  height: auto;
   padding: 0px 0px 0px 0px;
   margin: 50px 20% 50px 20%;
 }
@@ -802,3 +804,114 @@ li {
 	vertical-align: middle;
 	color: #ffffff;
 }
+
+/*お問い合わせ*/
+.container{
+	height: auto;
+}
+.contactTel{
+	width: 94%;
+	padding: 25px 3%;
+	border: 1px solid #acacac;
+	margin: 10px 0px 60px 0px;
+	font: inherit;
+	font-size: 25px;
+	line-height: 1.3;
+}
+
+.contactInput{
+	width: 94%;
+	padding: 25px 3%;
+	margin: 10px 0px 0px 0px;
+	font: inherit;
+	font-size: 20px;
+	line-height: 1.3;
+}
+
+.contact_backgroung{
+	height: auto;
+	background-color: #ffffff;
+}
+
+.form_inner {
+	padding: 0px 80px 0px 80px;
+}
+
+.contact_table{
+  width: 100%;
+}
+.contact_table > tbody > tr {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #acacac;
+}
+
+.contact_table > tbody > tr > th {
+  width: 25%;
+  margin: 0 -1px -1px 0;
+  border-bottom: 2px solid #ffffff;
+  /* border: 0.5px solid #acacac; */
+  text-align: -internal-center;
+  font: inherit;
+  background-color: #ebe8e8;
+  font-size: 18px;
+}
+
+.contact_table > tbody > tr > td {
+  width: 75%;
+  padding: 18px 18px 18px 30px;
+  /* border: 0.5px solid #acacac; */
+  border-bottom: 2px solid #ffffff;
+  background-color:#f7f7f7;
+  text-align: left;
+  font: inherit;
+  font-size: 18px;
+}
+
+.contact_table > tbody > tr > td > input {
+	height: 30px;
+}
+
+.btnArea{
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+}
+.contact_form_btn {
+	width: 300px;
+	height: 50px;
+	padding: 0px 0px 0px 0px;
+	background-color: #2d6908;
+	border-radius: 30px;
+	text-align: center;
+	display: table-cell; /* IE8から使用可能 */
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.contactNotice{
+	width: 90%;
+	height: auto;
+	padding: 10px 2%;
+	border: 1px solid #acacac;
+	margin: 10px 3% 10px 3%;
+	font: inherit;
+	font-size: 25px;
+	line-height: 1.3;
+}
+
+
+/* 個人情報 */
+.privacy_contents_inner {
+	width: 60%;
+	padding: 80px;
+	margin: 100px 20% 100px 20%;
+	background-color: white;
+}
+
+.pryvacy_info {
+	display: flex;
+	justify-content: flex-end;
+}
+
