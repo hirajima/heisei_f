@@ -1,11 +1,21 @@
 <?php
 require_once '../common/_header.php';
  ?>
+
+
   <section class="section_service">
   <div class="section_inner">
     <div class="page_sectionHead">
-      <h1 class="sectionHead_title"><span>実績紹介</span></h1>
+      <h1 class="sectionHead_title"><span>SERVICE</span></h1>
     </div><!-- /.sectionHead -->
+	<nav class="pankuzu">
+		<div class="pankuzu_inner">
+			<ul class="pankuzu_list">
+				<li class="pankuzu_item"><a href="/">TOP</a></li>
+				<li class="pankuzu_item">SERVICE</li>
+			</ul>
+		</div>
+	</nav>
     <div class="contents" id="rent">
       <div class="service_contents_inner">
 		  <div class="service_flex">

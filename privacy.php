@@ -6,6 +6,14 @@ require_once './common/_header.php';
 		<div class="page_sectionHead">
 			<h1 class="sectionHead_title"><span>個人情報の取扱について (賃貸・売買・管理 )</span></h1>
 		</div><!-- /.sectionHead -->
+		<nav class="pankuzu">
+			<div class="pankuzu_inner">
+				<ul class="pankuzu_list">
+					<li class="pankuzu_item"><a href="/">TOP</a></li>
+					<li class="pankuzu_item">個人情報の取扱について (賃貸・売買・管理 )</li>
+				</ul>
+			</div>
+		</nav>
 		<div class="contents" id="rent">
 			<div class="privacy_contents_inner">
 				<table width="100%" border="0" cellspacing="0" cellpadding="0">

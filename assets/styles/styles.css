@@ -958,3 +958,36 @@ li {
 .order-jp {
 	margin: 40px 0px 10px 0px;
 }
+/* パンくず */
+.pankuzu_inner{
+	margin: 10px 20% 0px 18%;
+	width: 62%;
+}
+.pankuzu_list {
+	margin: 10px 0px 0px 0px;
+	display: flex;
+	justify-content: flex-start;
+}
+.pankuzu_item {
+	padding: 0px 10px 0px 10px;
+	font: inherit;
+	font-size: 25px;
+}
+.pankuzu_item > a {
+	font: inherit;
+	font-size: 25px;
+}
+.pankuzu_item:before {
+	padding: 0px 10px 0px 0px;
+    content: '　>　';
+}
+.pankuzu_list>:first-child:before {
+    content: none;
+}
+/* 実績紹介 */
+.result_img{
+	width: 100%;
+}
+.result_img > img{
+	width: 100%;
+}

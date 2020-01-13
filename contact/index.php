@@ -6,6 +6,14 @@ require_once '../common/_header.php';
    <div class="page_sectionHead">
 	 <h1 class="sectionHead_title"><span>お問い合わせ</span></h1>
    </div><!-- /.sectionHead -->
+   <nav class="pankuzu">
+	   <div class="pankuzu_inner">
+		   <ul class="pankuzu_list">
+			   <li class="pankuzu_item"><a href="/">TOP</a></li>
+			   <li class="pankuzu_item">お問い合わせ</li>
+		   </ul>
+	   </div>
+   </nav>
    <div class="contents">
 	 <div class="service_contents_inner">
 		 
@@ -23,7 +31,7 @@ require_once '../common/_header.php';
 					 </div>
 			 	
 					 <div  class="form_inner">
-					 <form method="post" action="" enctype="multipart/form-data">
+					 <form method="post" action="/contact/confirm.php" enctype="multipart/form-data">
 						 <div class="contactForm">
 							 
 							 <table class="contact_table" cellspacing="0">

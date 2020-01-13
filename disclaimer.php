@@ -6,6 +6,14 @@ require_once './common/_header.php';
 		<div class="page_sectionHead">
 			<h1 class="sectionHead_title"><span>免責事項</span></h1>
 		</div><!-- /.sectionHead -->
+		<nav class="pankuzu">
+			<div class="pankuzu_inner">
+				<ul class="pankuzu_list">
+					<li class="pankuzu_item"><a href="/">TOP</a></li>
+					<li class="pankuzu_item">免責事項</li>
+				</ul>
+			</div>
+		</nav>
 		<div class="privacy_contents_inner">
 			<table>
 			  <tbody>

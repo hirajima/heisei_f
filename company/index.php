@@ -5,7 +5,15 @@ require_once '../common/_header.php';
   <div class="section_inner">
     <div class="page_sectionHead">
       <h1 class="sectionHead_title"><span>COMPANY</span></h1>
-    </div><!-- /.sectionHead -->
+    </div><!-- /.sectionHead -->	
+	<nav class="pankuzu">
+		<div class="pankuzu_inner">
+			<ul class="pankuzu_list">
+				<li class="pankuzu_item"><a href="/">TOP</a></li>
+				<li class="pankuzu_item">COMPANY</li>
+			</ul>
+		</div>
+	</nav>
     <div class="contents">
       <div class="company_contents_inner">
         <div id="comp_table">
