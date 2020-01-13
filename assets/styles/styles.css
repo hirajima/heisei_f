@@ -56,6 +56,7 @@ li {
    display: none;
    }
  .gHeader_inner {
+   width: 100%;
    margin: 0px;
    border-bottom: 8px solid #3e6b31;
    background: #ffffff;
@@ -74,7 +75,7 @@ li {
    height: 47px;
    }
  .gNav {
-   width: 100%;
+   width: 60%;
    height: 100%;
    }
  .gNav_inner {
@@ -84,13 +85,14 @@ li {
    padding:0px 0px 0px 0px;
    }
  .gNav_list {
-   margin: 0px 10% 0px 0px;
+   padding: 0px;
+   margin: 0px 0px 0px 0px;
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    }
  .gNav_item {
    margin-top: 0px;
-   width: 180px;
+   width: 18%;
    height: 30px;
    }
  .gNav_item > a {
@@ -211,7 +213,7 @@ li {
       display: flex;
       }
     .black_cover {
-      top: 316px;
+      top: 81%;
       bottom: 0px;
       left: 0px;
       right: 0px;
@@ -235,8 +237,8 @@ li {
   text-decoration: none;
 }
 .contents_img {
-  width: 430px;
-  height: 390px;
+  width: auto;
+  height: auto;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -705,7 +707,7 @@ li {
 }
 
 .company_table > tbody > tr {
-  height: 80px;
+  height: 100px;
   border-bottom: 1px solid #acacac;
 }
 
@@ -714,9 +716,11 @@ li {
   margin-left: 80px;
   border-bottom: 1px solid #acacac;
   text-align: -internal-center;
+  font: inherit;
 }
 
 .company_table > tbody > tr > td {
+  padding: 18px 18px 18px 30px;
   margin-left: 80px;
   border-bottom: 1px solid #acacac;
   text-align: left;
@@ -724,10 +728,77 @@ li {
 
 .company_table > tbody > tr > td > div {
   margin-top: 10px;
+  font: inherit;
+  font-size: 25px;
 }
 
 .company-kana{
   margin-top: 10px;
   font: inherit;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+/*SERVICE*/
+.service_contents_inner{
+  width: 60%;
+  padding: 0px 0px 0px 0px;
+  margin: 50px 20% 50px 20%;
+}
+.service_flex{
+	padding: 10px;
+	border-radius: 30px;
+	background-color: #c0dcb9;
+	display: flex;
+	justify-content: center;
+}
+.service_img{
+	width: 50%;
+	height: auto;
+	margin: 40px 0px 0px 40px;
+	padding: 0px;
+}
+.service_img > img {
+	width: 100%;
+	height: auto;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border-radius: 50%;
+}
+.service_description{
+	width: 50%;
+	height: auto;
+	margin: 0px 0px 40px 40px;
+	padding: 0px;
+}
+
+.service_title{
+	padding: 0px 0px 5px 10px;
+	margin: 15px 15px 15px 0px;
+	box-shadow: inset 4px 0 0 #2d6908;
+}
+
+.service_title_text{
+  font: inherit;
+  color: #000000;
+  font-size: 30px;
+}
+
+.result_btn{
+  margin: 90px 0px 20px 0px;
+  font: inherit;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.result_btn > a{
+	width: 200px;
+	height: 50px;
+	padding: 20px 10px 0px 10px;
+	background-color: #2d6908;
+	border-radius: 30px;
+	text-align: center;
+	display: table-cell; /* IE8から使用可能 */
+	vertical-align: middle;
+	color: #ffffff;
 }

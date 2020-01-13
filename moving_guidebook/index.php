@@ -4,7 +4,7 @@ require_once '../common/_header.php';
   <section class="section_service">
   <div class="section_inner">
     <div class="sectionHead">
-      <h1 class="sectionHead_title"><span>Service</span></h1>
+      <h1 class="sectionHead_title"><span>入居ガイド</span></h1>
     </div><!-- /.sectionHead -->
     <div class="contents">
       <div class="contents_inner">
