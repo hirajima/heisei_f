@@ -35,10 +35,6 @@ require_once '../common/_header.php';
                           <th>所在地</th>
                           <td>
                               <div id="comp_adr2">徳島県板野郡松茂町中喜来字南張3-3</div>
-                              <div><span id="comp_rosen">ＪＲ鳴門線</span>:<span id="comp_station">教会前</span></div>
-                              <div>
-                                  <div>バス乗車：<span id="bus_time">3</span>分</div><div>バス停名：<span id="bus_stop">松茂ニュータウン北</span></div><div>停歩分：<span id="from_bus">1</span>分</div><div>徒歩<span id="walk">15</span>分</div>
-                              </div>
                           </td>
                       </tr>
                       <tr>
