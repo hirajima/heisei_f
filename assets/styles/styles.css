@@ -915,3 +915,46 @@ li {
 	justify-content: flex-end;
 }
 
+/* 入居ガイド */
+
+.guidebook_contents_inner {
+	width: 60%;
+	padding: 80px;
+	margin: 100px 20% 100px 20%;
+	background-color: white;
+}
+.guide_table{
+  width: 100%;
+}
+.guide_table > tbody > tr {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #acacac;
+}
+
+.guide_table > tbody > tr > th {
+  margin: 0 -1px -1px 0;
+  border-bottom: 2px solid #ffffff;
+  /* border: 0.5px solid #acacac; */
+  text-align: -internal-center;
+  font: inherit;
+  background-color: #ebe8e8;
+  font-size: 18px;
+}
+
+.guide_table > tbody > tr > td {
+  padding: 18px 18px 18px 30px;
+  /* border: 0.5px solid #acacac; */
+  border-bottom: 2px solid #ffffff;
+  background-color:#f7f7f7;
+  text-align: left;
+  font: inherit;
+  font-size: 18px;
+}
+
+.guide_table > tbody > tr > td > input {
+	height: 30px;
+}
+.order-jp {
+	margin: 40px 0px 10px 0px;
+}

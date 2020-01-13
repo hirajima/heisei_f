@@ -3,21 +3,16 @@ require_once '../common/_header.php';
  ?>
   <section class="section_service">
   <div class="section_inner">
-    <div class="sectionHead">
+    <div class="page_sectionHead">
       <h1 class="sectionHead_title"><span>入居ガイド</span></h1>
     </div><!-- /.sectionHead -->
     <div class="contents">
-      <div class="contents_inner">
+      <div class="guidebook_contents_inner">
         <div class="nyuguide content-box">
-
-                      <ul class="prf-list">
-
-                          <li><a href="nyuguide.asp?p=36">徳島県</a></li>
-
-                      </ul>
+			<h2 class="service_title"><span class="service_title_text">徳島県の入居ガイドです。</span></h2>
                       <div class="clear"></div>
 
-                      <table class="guide-desc">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th>HP</th><td>役所ホームページ</td><th>転入</th><td>転入・転出手続きについて</td><th>学校</th><td>小学校・中学校学区情報</td>
                           </tr>
@@ -28,10 +23,9 @@ require_once '../common/_header.php';
                               <th>申請書</th><td>申請書ダウンロード</td>
                           </tr>
                       </tbody></table>
-                      <h4 class="guide-prf">徳島県</h4>
 
                       <div class="order-jp">ア行</div>
-                      <table class="city-guide">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
@@ -245,8 +239,9 @@ require_once '../common/_header.php';
                           </tr>
                       </tbody></table>
                       <div class="order-jp">カ行</div>
-                      <table class="city-guide">
-                          <tbody><tr>
+                      <table class="guide_table">
+                          <tbody>
+							  <tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
                               <th class="link-btn">HP</th>
@@ -532,7 +527,7 @@ require_once '../common/_header.php';
                           </tr>
                       </tbody></table>
                       <div class="order-jp">サ行</div>
-                      <table class="city-guide">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
@@ -586,7 +581,7 @@ require_once '../common/_header.php';
                           </tr>
                       </tbody></table>
                       <div class="order-jp">タ行</div>
-                      <table class="city-guide">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
@@ -678,7 +673,7 @@ require_once '../common/_header.php';
                           </tr>
                       </tbody></table>
                       <div class="order-jp">ナ行</div>
-                      <table class="city-guide">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
@@ -771,7 +766,7 @@ require_once '../common/_header.php';
                           </tr>
                       </tbody></table>
                       <div class="order-jp">ハ行</div>
-                      <table class="city-guide">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
@@ -825,7 +820,7 @@ require_once '../common/_header.php';
                           </tr>
                       </tbody></table>
                       <div class="order-jp">マ行</div>
-                      <table class="city-guide">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
@@ -1036,7 +1031,7 @@ require_once '../common/_header.php';
                           </tr>
                       </tbody></table>
                       <div class="order-jp">ヤ行</div>
-                      <table class="city-guide">
+                      <table class="guide_table">
                           <tbody><tr>
                               <th class="city-name">区市町村名</th>
                               <th class="city-gov">役所住所</th>
