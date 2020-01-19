@@ -37,7 +37,11 @@
         </div>
       </div>
     </header>
+<<<<<<< HEAD
     <header class="sp-gHeader">
+=======
+	<header class="sp-gHeader">
+>>>>>>> ca1b7afa21284b1f28810097c40ddead2aa4a9ec
       <div class="sp-gHeader_inner">
         <figure class="sp-gHeader_logo"><a href="/"><img src="assets/images/logo.png" alt="LOGO"></a></figure>
         <div class="toggle"><a href="#">menu</a></div>
