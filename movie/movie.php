@@ -10,6 +10,7 @@ echo "0907";
   </head>
   <body>
     <video src="/../runa/MOVI000.AVI"></video>
+    <img src="/../runa/mp20200627.png"></img>
     <p>tse</p>
   </body>
 </html>
