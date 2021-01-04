@@ -5,7 +5,7 @@ require_once './common/_header.php';
     <section class="top">
       <div class="background">
           <div class="top-main">
-            <h3 class="main-title-1">松茂町の不動産・賃貸物件について、ご相談ください。</h3>
+            <h3 class="main-title-1">松茂町の不動産・賃貸物件について、ご相談ください。いいい</h3>
             <div class="main-title-2">
               <h4 class="main-title-2-text">誠実な対応を心掛けます。</h4>
             </div>
