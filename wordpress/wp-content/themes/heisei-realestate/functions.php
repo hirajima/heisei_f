@@ -23,6 +23,17 @@ function add_additional_class_on_li($classes, $item, $args) {
   return $classes;
 }
 
+function change_excerpt_length($length)
+{
+  return 50;
+}
+function change_excerpt_more($more)
+{
+  return "・・・<span style=\"color: blue;\">続きを読む<span>";
+}
+
+add_filter('excerpt_length', "change_excerpt_length", 999);
+add_filter('excerpt_more', "change_excerpt_more");
 // function nxw_setup_thema()
 // {
 //   // add_theme_support("editor-styles");

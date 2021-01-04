@@ -14,6 +14,11 @@
              <div class="white_contents_inner">
                <?php
                if (have_posts()):while(have_posts()):the_post();
+                 if (has_post_thumbnail()) {
+                   echo "<figure class=\"results_img\">";
+                    the_post_thumbnail();
+                   echo "</figure>";
+                 }
                the_content();
                endwhile; endif;
 

@@ -4,7 +4,7 @@
 				<li class="pankuzu_item"><a href="/">TOP</a></li>
 				<li class="pankuzu_item">
 					<?php
-				if (isset($title)) {
+				if (strlen($title)) {
 					echo $title;
 				} else{
 					echo get_the_title();

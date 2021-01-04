@@ -2,16 +2,25 @@
 
 
 var windowWidth = $(window).width();
-var windowSm = 1080;
+var windowSm = 800;
 if (windowWidth <= windowSm) {
   //横幅640px以下のとき（つまりスマホ時）に行う処理を書く
       $(function() {
+        $(".pankuzu").remove();
         var header_height = $(".sp-gHeader").height();
-        $(".background").css({ paddingTop:header_height, background: "url(/wp-content/uploads/2021/01/mainimage.jpg) no-repeat center"});
+        $(".background").css({ background: "url(/wp-content/uploads/2021/01/mainimage.jpg) no-repeat center"});
       $('.toggle').click(function() {
           $('.gNav').slideToggle();
-        }
-      );
+        });
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 80) {
+              $(".sp-gHeader_logo").css({'display':'none'});
+              $(".sp-gHeader_inner").css({'padding-top':'0px'});
+            }else {
+              $(".sp-gHeader_logo").css({'display':'block'});
+              $(".sp-gHeader_inner").css({'padding-top':'20px'});
+            }
+          })
     });
 
 
