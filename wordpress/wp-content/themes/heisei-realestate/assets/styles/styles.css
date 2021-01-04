@@ -322,7 +322,16 @@ li {
   font-size: 12px;
   margin-left: 120px;
   }
+  /* 背景白*/
+  .white_contents_inner {
+  	padding: 80px;
+  	margin: 100px 0px 100px 0px;
+  	background-color: white;
+  }
 
+  div.white_contents_inner > a {
+    display: flex;
+  }
 .about{
   font-size:35px;
   margin: 30px 0px 20px 0px;
@@ -721,6 +730,23 @@ div.news_contents > a {
  }
 div.news_contents > a {
   display: initial;
+ }
+
+ /* 背景白*/
+ .editor_inner {
+  width: 100%;
+ 	padding: 0px;
+ 	margin: 0px 0px 0px 0px;
+ }
+ .white_contents_inner {
+  width: 100%;
+ 	padding: 0px;
+ 	margin: 0px 0px 0px 0px;
+ 	background-color: white;
+ }
+
+ div.white_contents_inner > a {
+   display: initial;
  }
 
  .news_date{

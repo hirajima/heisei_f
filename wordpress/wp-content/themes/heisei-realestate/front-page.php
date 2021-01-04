@@ -109,7 +109,7 @@
          </div>
        </div><!-- /.newsList -->
        <div class="btns">
-         <div class="btns_item"><a href="/news/" class="" style="color: #bfbeb9;">ニュースの一覧へ</a></div>
+         <div class="btns_item"><a href="/category/news/" class="" style="color: #bfbeb9;">ニュースの一覧へ</a></div>
        </div>
      </div>
    </section><!-- /.section -->
