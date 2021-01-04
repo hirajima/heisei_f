@@ -1,3 +1,9 @@
+<ifModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^.*disclaimer\.php$ /disclaimer/ [L,R=301]
+RewriteRule ^.*service/result\.php$ /service/ [L,R=301]
+</ifModule>
+
 
 # BEGIN WordPress
 # "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
