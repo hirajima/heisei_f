@@ -1,7 +1,9 @@
 <ifModule mod_rewrite.c>
 RewriteEngine On
+RewriteCond %{HTTPS} off
 RewriteRule ^.*disclaimer\.php$ /disclaimer/ [L,R=301]
 RewriteRule ^.*service/result\.php$ /service/ [L,R=301]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </ifModule>
 
 
@@ -12,11 +14,11 @@ RewriteRule ^.*service/result\.php$ /service/ [L,R=301]
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
+RewriteBase /wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . /wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
